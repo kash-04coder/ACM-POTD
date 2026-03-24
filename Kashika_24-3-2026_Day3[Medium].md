@@ -1,0 +1,3 @@
+<img width="2879" height="1400" alt="image" src="https://github.com/user-attachments/assets/3e403ba4-a2e7-4065-9be6-bbcd1a0d9aed" />
+In the problem, we have to sort an array that contains only 0's, 1's and 2's. This can be done using a method called Dutch National Flag algorithm or so.
+We assign 3 variables, low = 0, mid = 0 and high = arr.size()-1. This way we can access the first and last elements of the array as such. Then we initialize a loop with the condition that mid should be less than/equal to high. We then starts evaluating the element at the mid index. If it equals 0, then we swap the low index and mid index element and both increase by one. If it equals 1, then simply mid increases by one. Else we swap high and mid and high is decreased by one.
