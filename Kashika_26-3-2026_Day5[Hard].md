@@ -1,0 +1,4 @@
+<img width="2878" height="1407" alt="image" src="https://github.com/user-attachments/assets/e10cdfd9-a577-4f6f-a250-4648805a29cb" />
+Another day, another attempt at the problem. Again I aprroached it using brute force solution which ended up in exceeding time limit because of the unoptimised time complexity. This problem asked us to return a vector that would contain the maximum elements of a sliding window of the length/width "k".
+<img width="2878" height="1425" alt="image" src="https://github.com/user-attachments/assets/b1cd6917-b98a-4984-86bd-8ca5c5f7f22b" />
+The optimal approach on the other hand consists of using deque. We store the indices of the elements in such a manner that they are in decreasing order. And then the elements would be easier to add as the greatest would be the first oneand thus added easily.
