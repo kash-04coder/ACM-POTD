@@ -1,0 +1,3 @@
+<img width="2878" height="1417" alt="image" src="https://github.com/user-attachments/assets/1c4ed2b8-9da1-4e83-8278-0bcf7be208e3" />
+The problem is one of ease where we have to get rid of the duplicates present in the LL. Here we will first check whether the linked list has enough elements to have duplicates. Then we assign temp as the head and use it to iterate over the list. We equate the current value and the value of the element next to the current element. If found equal, we delete the next elements, hence only one of the two remains (duplicate removed). Also we check for more than one duplicate. Till the value of element and its next doesn't prove to be not equal, the elimination is continued. 
+Lastly we return the head of the edited list.
