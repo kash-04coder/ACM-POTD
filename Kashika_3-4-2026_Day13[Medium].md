@@ -1,0 +1,3 @@
+<img width="2876" height="1421" alt="image" src="https://github.com/user-attachments/assets/99081621-3be3-4e10-9b42-765e3ca95a71" />
+The problem is to remove all the duplicates and its first element too. Basically any element appearing more than once should be deleted wholly. 
+We first take a dummy node and link it to the head of the LL. This node will become the previos node and keep track of the last unique element present in the LL. We then iterate the LL, checking for duplicates. When we find one, we keep traversing till we find the last such duplicate element. We then use previous and then link it to the next element of the last duplicate node (prev->next = duplicate->next). Lastly we return the head;
