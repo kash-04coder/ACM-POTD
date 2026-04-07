@@ -1,0 +1,3 @@
+<img width="2879" height="1428" alt="image" src="https://github.com/user-attachments/assets/03cdcfba-318c-47f5-8621-eae3c8842e0e" />
+The problem is to remove the duplicate letters from the string so that result is the smallest in lexicographical order among all possible results. To solve this problem we keep only one occurrence of each character. If current char is smaller than stack top → try to remove bigger chars. BUT only remove if they appear again later (so we don’t lose them forever).
+While: last character in result is bigger than current AND that character will appear again later, remove it. 
