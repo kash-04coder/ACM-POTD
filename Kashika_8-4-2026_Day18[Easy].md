@@ -1,0 +1,4 @@
+<img width="2879" height="1411" alt="image" src="https://github.com/user-attachments/assets/06e5fa07-5fc4-4b7f-8c29-9c3148297307" />
+In this problem, we need to erase the duplicates from the string that occur nect to each other. 
+We use a stack st as it uses LIFO principle that helps to keep the track of the last element (basically the previous element which if same must be removes from the string). We initiate a loop that iterates through the whole of string. We then check whether the stack is empty AND if the top element of the stack is equal to the current char of the string. If these conditions are fulfilled then we pop the last element from the stack and move on. Otherwise we push the current char into the stack. 
+Once iteration is complete, we pop from the stack and push into string. Then we reverse the string to get the exact chronology.
