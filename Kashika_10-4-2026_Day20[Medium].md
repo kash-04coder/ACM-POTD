@@ -1,0 +1,4 @@
+<img width="2861" height="1396" alt="image" src="https://github.com/user-attachments/assets/8eac9339-3a70-4bd0-8d10-9de95d006fee" />
+Today's problem basically states us to remove k digit from the number (string) so that the resulting number is smallest possible number you can get out of the combination. 
+First we basically initiate a loop and then inside it we check whether the top element of the stack is greater than the current element of the string. If yes, we pop the element and decrement the k. Otherwise we push the element in the stack. Once the loop is completed but k is still not '0', then just pop last k elements from the stack.
+As we have to return a string, we take the char from the stack and push back into a answer string. If the stack as '0's at the end of the string (starting of the stack), then we remove them as it would be like 00100 that is basically 100. After removing these extra '0's, we reverse and return the answer string.
