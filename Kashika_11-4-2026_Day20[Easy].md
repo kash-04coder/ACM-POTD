@@ -1,0 +1,3 @@
+<img width="2879" height="1419" alt="image" src="https://github.com/user-attachments/assets/a974f8e9-eb65-425b-b6a6-2665a50a9c4a" />
+This problem asks us to remove the duplicate but only if the next element is the capital of the current element. Instead of using outright stack, we can simply use a string in the same LIFO manner. For every character in the array, we check whether the answer string is NOT empty AND the current element and the last element of the string have the above given relation, then erase the last element of the string. Else push back the current element into the string and move on.
+After this loop completes, return the answer string.
